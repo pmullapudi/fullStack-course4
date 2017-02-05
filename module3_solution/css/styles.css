@@ -1,6 +1,5 @@
 body {
   font-size: 16px;
-  /*color: #fff;*/
   background-color: #fff;
   font-family: 'Oxygen', sans-serif;
 }
@@ -75,7 +74,9 @@ body {
 }
 
 #menu-categories-title + div {
-  margin-bottom: 50px;
+	position: relative;
+	padding-top: 80px;
+	margin-bottom: 50px;
 }
 
 .menu-item-tile {
@@ -95,18 +96,18 @@ body {
 }
 .menu-item-description {
   padding-right: 30px;
+  padding-left: 30px;
+  background-color: #DDDDDD;
 }
 
 h3.menu-item-title {
   margin: 0 0 10px;
+  text-align: center;
 }
 .menu-item-details {
   font-size: .9em;
  }
 
- #chickenText, #beefText, #sushiText {
- 	background-color: #DDDDDD;
- }
 
 /* END MENU CATEGORIES PAGE */
 
